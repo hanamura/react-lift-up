@@ -1,5 +1,5 @@
 {
-  "name": "@hanamura/react-lib-template",
+  "name": "@hanamura/react-lift-up",
   "version": "0.0.1",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@chrisneedham/rollup-plugin-peer-deps-external": "^2.3.1",
+    "@react-spring/web": "^9.7.3",
     "@rollup/plugin-commonjs": "^25.0.3",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-terser": "^0.4.3",
@@ -26,6 +27,7 @@
     "typescript": "^5.1.6"
   },
   "peerDependencies": {
+    "@react-spring/web": "^9.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },

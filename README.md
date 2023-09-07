@@ -1,9 +1,8 @@
-# ⚛️ React Lib Template
+# ⚛️ LiftUp
 
 ## Usage
 
 ```jsx
-import { Button } from '@hanamura/react-lib-template'
-import '@hanamura/react-lib-template/dist/index.css'
-;<Button type="primary">Hello</Button>
+import { LiftUp } from '@hanamura/react-lift-up'
+;<LiftUp active>Hello World</LiftUp>
 ```
